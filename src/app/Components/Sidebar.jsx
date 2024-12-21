@@ -38,10 +38,10 @@ export const Sidebar = () => {
           mobileMenuOpen ? "translate-x-0 z-40" : "-translate-x-full z-[-1]"
         )}
       >
-        <div className="flex md:text-center text-left items-center md:mt-0 mt-2 w-full md:mb-4 overflow-hidden">
+        <Link href="/" className="flex md:text-center text-left items-center md:mt-0 mt-2 w-full md:mb-4 overflow-hidden">
           <Logo height={22} width={22} />
           <h1 className="text-2xl mt-1">CodeAnt AI</h1>
-        </div>
+        </Link>
         <select className="relative bg-gray-50 border border-[#D5D7DA] text-gray-900 text-sm rounded-lg block w-full p-2.5">
           <option value="1">UtkarshDhairyaPa..</option>
           <option value="2">UtkarshDhairyaPa2..</option>
@@ -51,7 +51,7 @@ export const Sidebar = () => {
         <div className="flex h-full flex-col justify-between">
           <div>
             <SidebarItem
-              href={""}
+              href={"repo"}
               label={"Repositories"}
               icon={<HomeIcon height={18} width={17.35} />}
             />
