@@ -10,6 +10,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        accent: "#1570EF",
+        access: "#175CD3",
+        accessBg: "#EFF8FF",
+        accessBorder: "#B2DDFF",
+        txt: "#181D27",
       },
     },
   },
