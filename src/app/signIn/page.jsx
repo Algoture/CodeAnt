@@ -90,13 +90,13 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col gap-4 items-center">
             <button className={clsx("OauthBtn", btn ? "hidden" : "flex")}>
               <GitHubIcon width={20} height={20} />
               Sign in with GitHub
             </button>
             <button className={clsx("OauthBtn", btn ? "hidden" : "flex")}>
-              <Image width={20} height={20} alt="gitlab" src={"/azure.png"} />
+              <Image width={20} height={20} alt="gitlab" src={"/bitbucket.png"} />
               Sign in with Bitbucket
             </button>
             <button className={clsx("OauthBtn ", btn ? "hidden" : "flex")}>
@@ -104,7 +104,7 @@ const HomePage = () => {
                 width={20}
                 height={20}
                 alt="gitlab"
-                src={"/bitbucket.png"}
+                src={"/azure.png"}
               />
               Sign in with Azure DevOps
             </button>

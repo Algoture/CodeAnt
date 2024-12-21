@@ -1,8 +1,8 @@
 import { DBIcon } from "./Icons";
 const RepositoryCard = ({ name, type, language, size, updated }) => {
   return (
-    <div className="border md:p-4 p-2  flex flex-col gap-3  bg-white shadow-md">
-      <div className="flex  items-center gap-2">
+    <div className="border md:p-4 hover:bg-gray-100 cursor-pointer p-2  flex flex-col gap-3  bg-white shadow-md">
+      <div className="flex items-center gap-2">
         <p className="md:text-xl text-lg font-medium  text-txt">{name}</p>
         <div className="flex items-center">
           <span className="md:px-2 px-1 md:py-1 py-0 text-sm rounded-full bg-accessBg border-accessBorder border text-access">
