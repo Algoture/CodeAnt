@@ -23,7 +23,7 @@ export const Sidebar = () => {
   return (
     <>
       <button
-        className="md:hidden fixed top-4 right-4 z-50 p-4 bg-primary text-black rounded-full"
+        className="md:hidden fixed top-2 right-2 z-50 p-4 bg-primary text-black rounded-full"
         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
       >
         {mobileMenuOpen ? (

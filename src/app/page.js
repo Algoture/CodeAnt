@@ -23,8 +23,8 @@ const RepositoriesList = () => {
   }, [search, repositories]);
   const { mobileMenuOpen } = useSidebar();
   return (
-    <div className="p-4">
-      <div className="flex  flex-col p-4 gap-4 border rounded-tr-lg rounded-tl-lg ">
+    <div className="md:p-4 p-1">
+      <div className="flex w-full  flex-col p-2  md:p-3 gap-4 rounded-tr-lg rounded-tl-lg ">
         <div
           className={clsx(
             " items-center w-full md:hidden flex",
